@@ -17,7 +17,36 @@
         android:id="@+id/bikeShopView"
         android:textSize="50sp"
         android:textStyle="bold"
+        android:textColor="#ff9e2e"
         android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true"
-        android:textColor="#ff9e2e" />
+        android:layout_marginTop="52dp" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/servicesButton"
+        android:textColor="#000"
+        android:background="#00e6ebd9"
+        android:textSize="20sp"
+        android:text="services"
+        android:textAllCaps="false"
+        android:clickable="false"
+        android:layout_below="@+id/bikeShopView"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="rentals"
+
+        android:id="@+id/rentalsButton"
+        android:textColor="#000"
+        android:textSize="20sp"
+        android:background="#00e6ebd9"
+        android:textAllCaps="false"
+        android:allowUndo="true"
+        android:layout_below="@+id/servicesButton"
+        android:layout_centerHorizontal="true" />
+
 </RelativeLayout>
